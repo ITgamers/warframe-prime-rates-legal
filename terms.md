@@ -5,7 +5,7 @@ permalink: /terms/
 
 # Terms of Use
 
-**Warframe Prime Rates** · by LokiBytes
+**Warframe Prime Rates** · by steamonlyitgamer
 
 **Effective:** September 12, 2026
 
@@ -65,9 +65,9 @@ or anything else, and they are not refundable.
 ## 6. Ownership
 
 The app's source code is made available under the MIT License. That license
-does **not** cover the LokiBytes name or brand artwork, which remain the
-property of their owner. Game content shown in the app belongs to Digital
-Extremes.
+does **not** cover the app's logo and icon artwork, which remain the property
+of the developer. *Warframe*, its game content and related marks belong to
+Digital Extremes.
 
 ## 7. Acceptable use
 
@@ -85,7 +85,7 @@ warframe.market or Overwolf.
 
 ## 9. Limitation of liability
 
-To the fullest extent allowed by law, LokiBytes is not liable for any indirect,
+To the fullest extent allowed by law, the developer is not liable for any indirect,
 incidental or consequential loss, or for any loss of in-game items, platinum,
 account access or data, arising from your use of the app or your inability to
 use it — including actions taken on your behalf on warframe.market and any

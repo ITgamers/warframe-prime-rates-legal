@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Warframe Prime Rates** · by LokiBytes
+**Warframe Prime Rates** · by steamonlyitgamer
 
 **Effective:** September 12, 2026
 
