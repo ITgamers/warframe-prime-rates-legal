@@ -54,13 +54,10 @@ delayed or simply wrong, and markets move.
 Nothing in the app is financial advice or a promise of any result. Decisions
 about what to buy, sell, craft or build are yours.
 
-## 5. Ads and donations
+## 5. Ads
 
 The app is free and supported by ads served through Overwolf. You can manage
 your ad consent choices in the app under Settings → Ad privacy.
-
-Donations are entirely voluntary. They do not buy features, priority, support
-or anything else, and they are not refundable.
 
 ## 6. Ownership
 

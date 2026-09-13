@@ -76,7 +76,6 @@ history. Nothing from it leaves your computer.
 | **warframe.market** | Prices, orders, your profile and messages, your online status, and sign-in | Your requests, and — when you are signed in — your account token. Listings and order changes you make are sent under your account. |
 | **Digital Extremes** (`warframe.com` servers) | Public game data, the in-game world state, item artwork | Standard web request details such as your IP address |
 | **Warframe wiki** and **GitHub** (community data) | Public reference data for builds and mastery rank artwork | Standard web request details |
-| **PayPal** | Only if you choose to donate — it opens in your browser | Whatever you give PayPal directly |
 | **Overwolf** | Distributes the app, provides game events, serves ads | See below |
 
 Requests to warframe.market identify the app by name and version, as
