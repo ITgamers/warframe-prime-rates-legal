@@ -63,6 +63,23 @@ incoming whispers. When whisper alerts are on, chat lines are checked to decide
 whether to show you a notification and are then discarded — **they are not
 saved**.
 
+### The Void Fissure reward screen
+
+To know when that screen opens, the app follows the lines Warframe writes to
+Windows' debug output as the game writes them - the same text as its log file,
+and read the same way: nothing is kept but the moment the screen opens and
+closes.
+
+When Warframe's reward screen opens after a Void Fissure mission, the app takes
+**one picture of the game screen** and reads the reward names from it **on your
+computer**, using the text recognition built into Windows, so it can show what
+each reward is worth. The picture is deleted as soon as it has been read. It is
+**not kept and not sent anywhere**. Like any picture of that screen, it can show
+other players' names, which are not read or recorded.
+
+You can turn this off under **Settings → Relic reward values**. While it is off,
+no picture is taken.
+
 ### Optional imports
 
 If you choose to import an export file from another tool (such as AlecaFrame),
@@ -75,7 +92,7 @@ history. Nothing from it leaves your computer.
 |---|---|---|
 | **warframe.market** | Prices, orders, your profile and messages, your online status, and sign-in | Your requests, and — when you are signed in — your account token. Listings and order changes you make are sent under your account. |
 | **Digital Extremes** (`warframe.com` servers) | Public game data, the in-game world state, item artwork | Standard web request details such as your IP address |
-| **Warframe wiki** and **GitHub** (community data) | Public reference data for builds and mastery rank artwork | Standard web request details |
+| **Warframe wiki** and **GitHub** (community data) | Public reference data for builds, mastery rank artwork and currency symbols | Standard web request details |
 | **Overwolf** | Distributes the app, provides game events, serves ads | See below |
 
 Requests to warframe.market identify the app by name and version, as
@@ -100,6 +117,7 @@ shown. You can review or change your choice at any time in the app under
 
 - **Sign out** of warframe.market in the app to delete your session token.
 - **Change ad consent** under Settings → Ad privacy → Manage.
+- **Turn off reward screen reading** under Settings → Relic reward values.
 - **Delete your data** by removing the app's folder:
   `%APPDATA%\Warframe Prime Rates\`
 - **Uninstall** the app at any time.
