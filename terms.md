@@ -7,7 +7,7 @@ permalink: /terms/
 
 **Warframe Prime Rates** · by steamonlyitgamer
 
-**Effective:** September 12, 2026
+**Effective:** September 13, 2026
 
 By installing or using Warframe Prime Rates ("the app"), you agree to these
 terms. If you do not agree, do not use the app.
@@ -15,8 +15,9 @@ terms. If you do not agree, do not use the app.
 ## 1. What the app is
 
 Warframe Prime Rates is a free tool for Warframe players. It analyses
-warframe.market prices, tracks your trades and inventory, and helps plan
-builds and purchases.
+warframe.market prices, tracks your trades and inventory, shows what Void
+Fissure rewards are worth while you pick one, helps plan builds, purchases and
+what to sell, and suggests replies for KIM conversations.
 
 **The app is independent.** It is not made, approved, endorsed or supported by
 Digital Extremes, by warframe.market, or by Overwolf. *Warframe* and related
@@ -47,9 +48,11 @@ made through your account, including the prices you set.
 
 ## 4. Information is not a guarantee
 
-Prices, trends, estimates, trade suggestions and build calculations are
-worked out automatically from market and game data. They can be incomplete,
-delayed or simply wrong, and markets move.
+Prices, trends, estimates, trade suggestions, build calculations, reward
+values, drop chances, whether a relic is vaulted and KIM suggestions are worked
+out automatically from market and game data. They can be incomplete, delayed or
+simply wrong, markets move, and game data can lag behind a Warframe update until
+it is published and the app has downloaded it.
 
 Nothing in the app is financial advice or a promise of any result. Decisions
 about what to buy, sell, craft or build are yours.

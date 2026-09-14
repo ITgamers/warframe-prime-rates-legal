@@ -7,7 +7,7 @@ permalink: /privacy/
 
 **Warframe Prime Rates** · by steamonlyitgamer
 
-**Effective:** September 12, 2026
+**Effective:** September 13, 2026
 
 ## The short version
 
@@ -33,10 +33,14 @@ All of this lives in the app's folder on your PC. None of it is sent to us.
 - **Your trade history** — read from Warframe's own log file (`EE.log`). This
   includes the **in-game names of players you traded with**, the items and the
   platinum involved, because that is what the game records.
+- **Game data** — recipes, item details, drop tables and Builds data, as
+  Digital Extremes publishes them.
 - **Your warframe.market listings, saved builds, plans and settings**
   (such as theme and zoom).
 - **Cached artwork** for items and mastery ranks, downloaded from Digital
   Extremes and the Warframe wiki.
+- **Which versions of the game data it last downloaded**, so it can tell when
+  something new is out.
 - **Window size and position.**
 - **A support log**, capped at 1 MB, recording technical events such as the app
   starting or a connection failing. It does not contain your inventory or
@@ -80,6 +84,16 @@ other players' names, which are not read or recorded.
 You can turn this off under **Settings → Relic reward values**. While it is off,
 no picture is taken.
 
+### Whether Warframe is running
+
+To tell whether your inventory is current, the app checks whether Warframe is
+running and when it was started. Nothing about this is recorded.
+
+### KIM
+
+The KIM tab's conversation data ships inside the app. Using it contacts no
+service, and nothing you choose in it is sent anywhere.
+
 ### Optional imports
 
 If you choose to import an export file from another tool (such as AlecaFrame),
@@ -90,16 +104,28 @@ history. Nothing from it leaves your computer.
 
 | Service | Why | What they receive |
 |---|---|---|
-| **warframe.market** | Prices, orders, your profile and messages, your online status, and sign-in | Your requests, and — when you are signed in — your account token. Listings and order changes you make are sent under your account. |
-| **Digital Extremes** (`warframe.com` servers) | Public game data, the in-game world state, item artwork | Standard web request details such as your IP address |
-| **Warframe wiki** and **GitHub** (community data) | Public reference data for builds, mastery rank artwork and currency symbols | Standard web request details |
+| **warframe.market** | Prices, orders, item pictures, your profile and messages, your online status, and sign-in | Your requests, and — when you are signed in — your account token. Listings and order changes you make are sent under your account. |
+| **Digital Extremes** (`warframe.com` servers, and the download host its drop tables page points to) | Public game data, drop tables, the in-game world state, item artwork | Standard web request details such as your IP address |
+| **Warframe wiki** and **GitHub** (community data) | Public reference data for builds, mastery rank artwork and the platinum symbol | Standard web request details |
 | **Overwolf** | Distributes the app, provides game events, serves ads | See below |
 
 Requests to warframe.market identify the app by name and version, as
 warframe.market's rules require.
 
+Links you choose to open, such as an item's page on the Warframe wiki or on
+warframe.market, open in your web browser under that site's own policy.
+
 Each of these services processes data under its own privacy policy, not this
 one.
+
+### Checking for updates
+
+Once the app has data, it checks about once an hour whether warframe.market's
+item list, Digital Extremes' game data or Digital Extremes' drop tables have
+changed. Each check asks only for a version number and sends nothing about you
+beyond standard web request details. If something has changed, the app
+downloads it when automatic updates are on, and otherwise tells you an update
+is available.
 
 ## Overwolf and advertising
 
