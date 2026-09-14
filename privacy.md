@@ -36,7 +36,8 @@ All of this lives in the app's folder on your PC. None of it is sent to us.
 - **Game data** — recipes, item details, drop tables and Builds data, as
   Digital Extremes publishes them.
 - **Your warframe.market listings, saved builds, plans and settings**
-  (such as theme and zoom).
+  (such as theme and zoom), and which version of these terms you accepted and
+  when.
 - **Cached artwork** for items and mastery ranks, downloaded from Digital
   Extremes and the Warframe wiki.
 - **Which versions of the game data it last downloaded**, so it can tell when
