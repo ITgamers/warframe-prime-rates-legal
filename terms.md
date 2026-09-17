@@ -7,7 +7,7 @@ permalink: /terms/
 
 **Warframe Prime Rates** · by steamonlyitgamer
 
-**Effective:** September 13, 2026
+**Effective:** September 16, 2026
 
 By installing or using Warframe Prime Rates ("the app"), you agree to these
 terms. If you do not agree, do not use the app.
@@ -64,9 +64,9 @@ your ad consent choices in the app under Settings → Ad privacy.
 
 ## 6. Ownership
 
-The app's source code is made available under the MIT License. That license
-does **not** cover the app's logo and icon artwork, which remain the property
-of the developer. *Warframe*, its game content and related marks belong to
+The app, its source code and its logo and icon artwork are the property of the
+developer. Nothing in these terms gives you a right to copy, change or
+distribute them. *Warframe*, its game content and related marks belong to
 Digital Extremes.
 
 ## 7. Acceptable use
