@@ -4,7 +4,7 @@ title: Legal — Warframe Prime Rates
 
 # Warframe Prime Rates
 
-Legal documents for the Warframe Prime Rates app, by steamonlyitgamer.
+Legal documents for the Warframe Prime Rates app, by Gabriel Jovellar.
 
 - [Terms of Use](terms/)
 - [Privacy Policy](privacy/)

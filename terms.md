@@ -5,9 +5,9 @@ permalink: /terms/
 
 # Terms of Use
 
-**Warframe Prime Rates** · by steamonlyitgamer
+**Warframe Prime Rates** · by Gabriel Jovellar
 
-**Effective:** September 16, 2026
+**Effective:** September 27, 2026
 
 By installing or using Warframe Prime Rates ("the app"), you agree to these
 terms. If you do not agree, do not use the app.
