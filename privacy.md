@@ -7,7 +7,7 @@ permalink: /privacy/
 
 **Warframe Prime Rates** · by Gabriel Jovellar
 
-**Effective:** September 27, 2026
+**Effective:** October 20, 2026
 
 ## The short version
 
@@ -85,6 +85,24 @@ other players' names, which are not read or recorded.
 You can turn this off under **Settings → Relic reward values**. While it is off,
 no picture is taken.
 
+### Rivens
+
+While Warframe's riven cycling screen is open, the app takes **a picture of the
+game screen about every second and a half** and reads the riven's stats from it
+**on your computer**, using the same Windows text recognition, so it can show
+how well each stat rolled. Each picture is deleted as soon as it has been read.
+Pictures are **not kept and not sent anywhere**, and they stop when the riven
+card leaves the screen. You can turn this off under **Settings → Riven grades
+while cycling**. While it is off, no picture is taken.
+
+A picture you drop or paste into the Rivens tab is read the same way and is
+not kept either.
+
+The app also keeps the rivens listed in your inventory - each one's weapon and
+stats - on your computer, to grade them in the Rivens tab. When you ask what
+similar rivens sell for, the app asks warframe.market for that weapon's riven
+listings. That request names the weapon and nothing about you or your riven.
+
 ### Whether Warframe is running
 
 To tell whether your inventory is current, the app checks whether Warframe is
@@ -95,11 +113,11 @@ running and when it was started. Nothing about this is recorded.
 The KIM tab's conversation data ships inside the app. Using it contacts no
 service, and nothing you choose in it is sent anywhere.
 
-### Optional imports
+### Imported history
 
-If you choose to import an export file from another tool (such as AlecaFrame),
-it is read from your computer and the trades in it are added to your local
-history. Nothing from it leaves your computer.
+Some trade history may have been added from an export file produced by another
+tool. The app no longer imports these. Any such trades already in your history
+were read from your computer, and they stay there.
 
 ## Services the app contacts
 
@@ -145,6 +163,7 @@ shown. You can review or change your choice at any time in the app under
 - **Sign out** of warframe.market in the app to delete your session token.
 - **Change ad consent** under Settings → Ad privacy → Manage.
 - **Turn off reward screen reading** under Settings → Relic reward values.
+- **Turn off riven screen reading** under Settings → Riven grades while cycling.
 - **Delete your data** by removing the app's folder:
   `%APPDATA%\Warframe Prime Rates\`
 - **Uninstall** the app at any time.
