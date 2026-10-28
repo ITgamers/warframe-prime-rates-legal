@@ -7,7 +7,7 @@ permalink: /privacy/
 
 **Warframe Prime Rates** · by Gabriel Jovellar
 
-**Effective:** October 20, 2026
+**Effective:** October 28, 2026
 
 ## The short version
 
@@ -108,6 +108,19 @@ listings. That request names the weapon and nothing about you or your riven.
 To tell whether your inventory is current, the app checks whether Warframe is
 running and when it was started. Nothing about this is recorded.
 
+### Discord status
+
+If the Discord app is running on your computer, Warframe Prime Rates tells it
+what to show on your Discord profile: "Playing Warframe Prime Rates", which tab
+of the app is open (for example "Grading rivens"), and how long the app has
+been open. It is sent only while the app's window is on screen or Warframe is
+running.
+
+This goes to the Discord app on your own computer, which shows it to people
+who can see your Discord activity. It never includes your in-game name, your
+platinum, your items or anything else from your account. Turn it off under
+Settings → Discord status, or hide your activity in Discord's own settings.
+
 ### KIM
 
 The KIM tab's conversation data ships inside the app. Using it contacts no
@@ -126,6 +139,7 @@ were read from your computer, and they stay there.
 | **warframe.market** | Prices, orders, item pictures, your profile and messages, your online status, and sign-in | Your requests, and — when you are signed in — your account token. Listings and order changes you make are sent under your account. |
 | **Digital Extremes** (`warframe.com` servers, and the download host its drop tables page points to) | Public game data, drop tables, the in-game world state, item artwork | Standard web request details such as your IP address |
 | **Warframe wiki** and **GitHub** (community data) | Public reference data for builds, mastery rank artwork and the platinum symbol | Standard web request details |
+| **Discord** (the Discord app on your computer, if it is running and the setting is on) | Your Discord status | "Playing Warframe Prime Rates", the name of the tab you have open, and when the app was opened |
 | **Overwolf** | Distributes the app, provides game events, serves ads | See below |
 
 Requests to warframe.market identify the app by name and version, as
@@ -164,6 +178,7 @@ shown. You can review or change your choice at any time in the app under
 - **Change ad consent** under Settings → Ad privacy → Manage.
 - **Turn off reward screen reading** under Settings → Relic reward values.
 - **Turn off riven screen reading** under Settings → Riven grades while cycling.
+- **Turn off your Discord status** under Settings → Discord status.
 - **Delete your data** by removing the app's folder:
   `%APPDATA%\Warframe Prime Rates\`
 - **Uninstall** the app at any time.
